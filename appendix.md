@@ -1,0 +1,32 @@
+# Appendix: Setting up a Framework for Science
+
+## Systems, Objects, and Properties
+
+We start with a **system** of interest. Everything in this system, including the system itself, is an **object**. The most fine-grained objects for a given system of interest are called **elementary objects**. These cannot be decomposed any further within the current scope of the system of interest. **Composite objects** are objects that are composed of other **component objects**. Component objects can be elementary or composite objects.
+
+All objects have **properties**. Elementary objects have **elementary properties**. Composite objects have **composite properties**. Composite properties are composed of the properties of the component objects. Composite properties are determined from the component properties by **models**. Objects can conform to **types** that are schemas for a particular set of objects that share similar properties.
+
+The **state** of a system is the set of all properties of all objects in the system, and the models that determine them. The **state space** of a system is the set of all possible states of the system.
+
+> **Example 1**: A Hydrogen Atom
+> 
+> Let us take a hydrogen atom as an example system of interest. The elementary objects are the elementary particles from the Standard Model of Particle Physics, the fermions and bosons. In this case, this would be the electron and the three quarks that make up the proton. The proton and the atom itself are composite objects. The elementary properties of the 4 elementary particles include their mass, charge, and spin. The composite properties of the proton and the atom include their mass, charge, magnetic moment, and radius. The interactions between the elementary particles give rise to the composite properties, with the model being the laws described in the Standard Model of Particle Physics. Fermions are a type of elementary particle, with the electron and the quarks being specific instances of fermions.
+
+> **Example 2**: A Railway Network
+> 
+> An example closer to everyday life is a transit network. Let us define the elementary objects here to be individual trains and platforms. Composite objects include the stations, the lines, and the network itself. The elementary properties of the trains include their length, capacity, destination, current location, and current speed. The elementary properties of the platforms include their length, and current occupancy. The composite properties of the stations include their location, the number of platforms, the total occupancy. The composite properties of the lines include the number and location of trains on the line, and the stations along the line. The composite properties of the network includes the total number of trains and passengers, and the total length of all the lines. The model for deriving the composite properties is self-evident in this case.
+
+## Adding People to the Mix
+If we take the world to be our system of interest, one type of object is a **person** (pl. **people**). People can make **observations** of the world. Observations capture a subset of the state of the world. An observation has an associated multidimensional **uncertainty**. People can also propose **hypotheses**, which are potential models for determining a subset of composite properties for the world, or a self-contained system which is a subset of the world.
+
+## Evaluating Hypotheses
+A hypothesis can be evaluated by comparing the composite properties it predicts with the composite properties that are observed. **Tests** are descriptions of how to compare observations and predictions, by making choices on which properties to weight and how to factor in uncertainties. A test has an **outcome** that is a measure of the agreement between the observations and the predictions. The outcome of a test has an associated **confidence** that is a measure of the uncertainty in the outcome. In general, higher uncertainty in observations leads to a lower confidence in the outcome of a test, although this depends on the details of the test and how uncertainties are factored in.
+
+## Collective Knowledge
+The **ground truth** for a system is a probability distribution over the state space of the system that describes the true behavior of the system. The ground truth can never be known, but can be approximated. Collections of hypotheses with their associated outcomes and confidences make up **collective knowledge** of a group of people. The collective knowledge is a probability distribution over the state space of the system. The probability distribution is determined by the confidence of the outcomes of the tests that compare the observations and predictions. Note that the state space of the system cannot be known, and hypothesis generation is a process of discovery of the state space. The distance between the collective knowledge and the ground truth is a measure of the **progress** of the group of people towards understanding the system. The closer the collective knowledge is to the ground truth, the more progress has been made.
+
+## Utility and Social Welfare
+Each person in the world has an individual utility function that they want to maximize. The von Neumann-Morgenstern utility theorem necessitates that for rational people, the utility function must be real valued (i.e. one-dimensional). Each person has an expectation that they only have a limited amount of time to live, and they want to maximize their utility over their lifetime. A group of people forms a **society**. The **social welfare function** is the weighted sum of individual utility functions over a society, in line with Harsanyi's utilitarian theorem.
+
+## Progress and Social Welfare
+A society has a finite rate of replenishment of **resources**. Resources are **distributed** among the people in the society. Among other things, resources are used to generate hypotheses, make observations, and perform tests. We *assume that the rate of replenishment of resources is higher when more progress is made*. We also *assume that in general, individual utility functions are maximized when there are more resources available to that individual*. Taking the two assumptions together, making more progress leads to higher social welfare.
