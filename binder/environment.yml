@@ -1,0 +1,16 @@
+name: web
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - seaborn
+  - ipykernel
+  - ca-certificates
+  - certifi
+  - openssl
+  - ipywidgets
+  - ipympl
+prefix: /Users/advaitathreya/miniconda3/envs/web
