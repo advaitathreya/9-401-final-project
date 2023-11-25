@@ -11,7 +11,7 @@ In this notebook, we explore the incentives and structures that drive science, a
 ## Key Considerations
 
 ### Science as a Strong-Link Problem
-Science is a [strong-link problem](https://www.experimental-history.com/p/science-is-a-strong-link-problem). Progress is made when we incentivize diverse ideas, as hypothesis generation in vacuo cannot harm progress- it is only the exploration of the state space of the system. The risk of poor hypotheses comes from the misaligned rationing of resources which leads to incomplete testing and the propagation of bad ideas. A robust system will be able to tolerate bad ideas, and a system that is too risk-averse will not be able to make progress. We explore ideas for making systems more robust with reviewing frameworks and recommender systems that surface good work and deprioritize bad work without gatekeeping.
+Science is a [strong-link problem](https://www.experimental-history.com/p/science-is-a-strong-link-problem). Progress is made when we incentivize diverse ideas, as hypothesis generation in vacuo cannot harm progress- it is only the exploration of the state space of the system. The harms of poor hypotheses come from the misaligned rationing of resources which leads to incomplete testing and the propagation of bad ideas. A robust system will be able to tolerate bad ideas, and a system that is too risk-averse will not be able to make progress. We explore ideas for making systems more robust with reviewing frameworks and recommender systems that surface good work and deprioritize bad work without gatekeeping or squashing good-faith exploration.
 
 ### Time and Attention as the Scarcest Resources
 We assume that the scarcest resources in a society are time and attention. Making it easier for people to find and engage with good work will lead to more progress. As such, the incentives we consider are designed to optimize for the efficient use of time and attention.
@@ -22,7 +22,7 @@ We assume that the scarcest resources in a society are time and attention. Makin
 - **Incentivize constructive and critical collaboration**: We want to encourage people to work together to make progress, and to help each other improve their ideas. One way to do this is to get people to review each other's work, and to reward people for producing good reviews.
 - **Highlight good work**: In the limited time that people have, we want them to be engaging with good work. What is "good" depends on individual people, and helping them find this is a priority. Good reviews and summaries of work can help with this.
 
-### Some Ideas to Explore
+## Some Ideas to Explore
 We define any piece of work as **content**. This can be a hypothesis, a test, an observation, a review, a summary, or anything else.
 
 ### A credit system
