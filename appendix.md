@@ -6,7 +6,7 @@ We start with a **system** of interest. Everything in this system, including the
 
 All objects have **properties**. Elementary objects have **elementary properties**. Composite objects have **composite properties**. Composite properties are composed of the properties of the component objects. Composite properties are determined from the component properties by **models**. Objects can conform to **types** that are schemas for a particular set of objects that share similar properties.
 
-The **state** of a system is the set of all properties of all objects in the system, and the models that determine them. The **state space** of a system is the set of all possible states of the system.
+The **state** of a system is the set of all properties of all objects in the system, and the models that determine them. The **state space** of a system is the set of all possible states of the system. Here, "possible" means a state that is internally self-consistent. Any combination of properties and models that does not contradict itself is a possible state.
 
 > **Example 1**: A Hydrogen Atom
 > 
